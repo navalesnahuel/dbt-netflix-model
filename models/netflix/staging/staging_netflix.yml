@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: staging_netflix
+    description: Full netflix data
+    columns:
+      - name: show_id
+        tests:
+          - not_null
+          - unique
+              
