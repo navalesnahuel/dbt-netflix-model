@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: data
+    description: netflix application
+    database: airbnb-414321
+    schema: raw_data
+    tables:
+      - name: netflix
+        description: Raw movies
+        columns:
+          - name: show_id
+            tests:
+              - not_null
+              - unique

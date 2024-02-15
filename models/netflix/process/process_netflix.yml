@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: process_netflix
+    description: Processed netflix data
+    columns:
+      - name: title
+        tests:
+          - not_null
+          - unique

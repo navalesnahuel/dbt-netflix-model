@@ -1,0 +1,34 @@
+version: 2
+
+models:
+  - name: transformed_genre_productions
+    description: Data for each genre
+    columns:
+      - name: genre
+        tests:
+          - not_null
+          - unique
+
+  - name: transformed_productions_country
+    description: Data for each country
+    columns:
+      - name: country
+        tests:
+          - not_null
+          - unique
+
+  - name: transformed_ratings_productions
+    description: Data for rating categories
+    columns:
+      - name: rating
+        tests:
+          - not_null
+          - unique
+
+  - name: transformed_year_release
+    description: Data por each year releases
+    columns:
+      - name: release_year
+        tests:
+          - not_null
+          - unique
