@@ -1,7 +1,7 @@
 # dbt Model: Simple Model
 
 ## Purpose
-The `netflix model` gives cool insights about the netflix site 
+Make a simple transformation on the netflix data.
 
 ## Description
 The `netflix model` aggregates and analyzes data related to Netflix content, including information about titles, genres, ratings, and user interactions. By querying this model, analysts can gain insights into popular genres, countries and more.
